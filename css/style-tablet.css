@@ -1,0 +1,36 @@
+@media (min-width: 481.98px) {
+    #box-gif {
+        width: 50vw;
+    }
+    
+    #box-gif img {
+        width: 45vw;
+    }
+    
+    body {
+        background-image: url("/assets/img/fondo6.jpg");
+    }
+    
+    button {
+        height: 6vh;
+        font-size: 2.6vw;
+    }
+    
+    #gif-input {
+        font-size: 3vw;
+        height: 6vh;
+        width: 45vw;
+    }
+
+    #gif-info {
+        justify-content: space-around;
+        flex-flow: wrap;
+        flex-direction: row;
+    }
+
+    header {
+        height: 25vh;
+        padding: 0 0 5vw 0;
+    }
+}
+  
