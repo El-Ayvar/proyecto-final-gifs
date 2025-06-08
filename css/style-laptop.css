@@ -1,6 +1,6 @@
 @media (min-width: 769.98px) {
     body {
-        background-image: url("/assets/img/fondo5.jpg");
+        background-image: url("../assets/img/fondo5.jpg");
     }
 
     button {
