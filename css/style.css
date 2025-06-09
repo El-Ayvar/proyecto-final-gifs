@@ -96,6 +96,10 @@ footer {
     width: 100vw;
 }
 
+.hidden {
+    display: none;
+}
+
 header {
     align-items: center;
     display: flex;
@@ -123,6 +127,22 @@ header h1 {
 
 .logo {
     width: 3vw;
+}
+
+#load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Orange", sans-serif;
+    font-size: 5vw;
+    width: 100vw;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
 
 #redes-sociales{

@@ -1,4 +1,6 @@
 const btnSearch = document.querySelector("#search-btn");
+const resultado = document.querySelector('#resultado');
+const loader = document.querySelector('#loader');
 
 const searchGif = () => {
     const gifName = document.querySelector("#gif-input").value.trim();
@@ -29,16 +31,25 @@ const searchGif = () => {
 };
 
 function showGifs(gifs) {
-    const gifInfo = document.querySelector("#gif-info");
-    gifInfo.innerHTML = "";
 
-    gifs.forEach(gif => {
-        gifInfo.innerHTML += `
-            <div id="box-gif">
-                <h2>${gif.title.toUpperCase()}</h2>
-                <img src="${gif.images.original.url}" alt="${gif.title}"/>
-            </div>
-        `;
-    });
+    resultado.classList.remove('hidden');
+    loader.classList.remove('hidden');
+    resultado.innerHTML = '';
+
+    setTimeout(() => {
+        loader.classList.add('hidden');
+
+        const gifInfo = document.querySelector("#gif-info");
+        gifInfo.innerHTML = "";
+
+            gifs.forEach(gif => {
+            gifInfo.innerHTML += `
+                <div id="box-gif">
+                    <h2>${gif.title.toUpperCase()}</h2>
+                    <img src="${gif.images.original.url}" alt="${gif.title}"/>
+                </div>
+            `;
+        });
+    },1500);
 }
 btnSearch.addEventListener("click", searchGif);
