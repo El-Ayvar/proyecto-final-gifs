@@ -26,6 +26,7 @@
         justify-content: space-around;
         flex-flow: wrap;
         flex-direction: row;
+        align-items: flex-start;
     }
 
     header {

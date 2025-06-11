@@ -2,6 +2,13 @@ const btnSearch = document.querySelector("#search-btn");
 const resultado = document.querySelector('#resultado');
 const loader = document.querySelector('#loader');
 
+document.getElementById("gif-input").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        document.getElementById("search-btn").click();
+    }
+})
+
+
 const searchGif = () => {
     const gifName = document.querySelector("#gif-input").value.trim();
     if (!gifName) {
