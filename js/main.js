@@ -1,18 +1,18 @@
-const btnSearch = document.querySelector("#search-btn");
+const btnSearch = document.querySelector("#search_btn");
 const resultado = document.querySelector('#resultado');
 const loader = document.querySelector('#loader');
 
-document.getElementById("gif-input").addEventListener("keypress", function(event) {
+document.getElementById("gif_input").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
-        document.getElementById("search-btn").click();
+        document.getElementById("search_btn").click();
     }
 })
 
 
 const searchGif = () => {
-    const gifName = document.querySelector("#gif-input").value.trim();
+    const gifName = document.querySelector("#gif_input").value.trim();
     if (!gifName) {
-        document.querySelector("#gif-info").innerHTML = `<p>Por favor, ingresa el nombre de un GIF.</p>`;
+        document.querySelector("#gif_info").innerHTML = `<p>Por favor, ingresa el nombre de un GIF.</p>`;
         return;
     }
 
@@ -33,7 +33,7 @@ const searchGif = () => {
             showGifs(data.data);
         })
         .catch(error => {
-            document.querySelector("#gif-info").innerHTML = `<p id="mensaje-error">${error.message}</p>`;
+            document.querySelector("#gif_info").innerHTML = `<p id="mensaje_error">${error.message}</p>`;
         });
 };
 
@@ -46,12 +46,12 @@ function showGifs(gifs) {
     setTimeout(() => {
         loader.classList.add('hidden');
 
-        const gifInfo = document.querySelector("#gif-info");
+        const gifInfo = document.querySelector("#gif_info");
         gifInfo.innerHTML = "";
 
             gifs.forEach(gif => {
             gifInfo.innerHTML += `
-                <div id="box-gif">
+                <div id="box_gif">
                     <h2>${gif.title.toUpperCase()}</h2>
                     <img src="${gif.images.original.url}" alt="${gif.title}"/>
                 </div>

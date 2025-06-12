@@ -7,23 +7,23 @@
         height: 5vh;
     }
 
-    .box-social {
+    .box_social {
         align-items: center;
         display: flex;
         justify-content: space-around;
         width: 13vw;
     }
 
-    #box-gif {
+    #box_gif {
         width: 25vw;
     }
     
-    #box-gif img {
+    #box_gif img {
         width: 20vw;
     }
     
 
-    #contenedor-input {
+    #contenedor_input {
         width: 80vw;
     }
 
@@ -31,7 +31,7 @@
         height: 6vh;
     }
     
-    #gif-input {
+    #gif_input {
         font-size: 2vw;
         height: 5vh;
         width: 30vw;
@@ -46,7 +46,7 @@
         height: 25vh;
     }
     
-    #info-personal {
+    #info_personal {
         align-items: center;
         flex-direction: row;
         font-size: 1vw;
@@ -58,7 +58,7 @@
         width: 1.5vw;
     }
 
-    #redes-sociales {
+    #redes_sociales {
         align-items: center;
         flex-direction: row;
         font-size: 1vw;
@@ -66,7 +66,7 @@
         width: 50vw;
     }
 
-    #text-input {
+    #text_input {
         font-size: 3vw;
     }
 }

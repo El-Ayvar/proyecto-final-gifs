@@ -1,9 +1,9 @@
 @media (min-width: 481.98px) {
-    #box-gif {
+    #box_gif {
         width: 50vw;
     }
     
-    #box-gif img {
+    #box_gif img {
         width: 45vw;
     }
     
@@ -16,17 +16,17 @@
         font-size: 2.6vw;
     }
     
-    #gif-input {
+    #gif_input {
         font-size: 3vw;
         height: 6vh;
         width: 45vw;
     }
 
-    #gif-info {
+    #gif_info {
         justify-content: space-around;
         flex-flow: wrap;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: flex-star_;
     }
 
     header {

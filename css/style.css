@@ -31,7 +31,7 @@ body {
     text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000;
 }
 
-#box-gif {
+#box_gif {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -40,17 +40,17 @@ body {
     width: 90vw;
 }
 
-#box-gif img {
+#box_gif img {
     width: 90vw;
 }
 
-#box-gif h2 {
+#box_gif h2 {
     display: flex;
     font-family:"Orange", sans-serif;
     text-align: center;
 }
 
-.box-social {
+.box_social {
     color: rgb(4, 229, 229);
 }
 
@@ -65,7 +65,7 @@ button {
     width: 15vw;
 }
 
-#contenedor-input {
+#contenedor_input {
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -81,7 +81,7 @@ footer {
     width: 100vw;
 }
 
-#gif-input {
+#gif_input {
     border-radius: 15px;
     color: aqua;
     height: 3.3vh;
@@ -91,7 +91,7 @@ footer {
     width: 40vw;
 }
 
-#gif-info {
+#gif_info {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -123,7 +123,7 @@ header h1 {
     font-size: 17vw;
 }
 
-#info-personal {
+#info_personal {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -146,7 +146,7 @@ input::placeholder {
     width: 100vw;
 }
 
-#redes-sociales{
+#redes_sociales{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
