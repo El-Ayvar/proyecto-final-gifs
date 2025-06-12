@@ -29,6 +29,7 @@
     }
 
     footer {
+        margin: 3vw 0 0 0;
         height: 6vh;
     }
     
@@ -38,8 +39,12 @@
         width: 30vw;
     }
 
+    #gif_info {
+            margin: 0vw 0 0vw 0;
+    }
+
     header {
-        margin: 0 0 3vw 0;
+        height: 28vh;
     }
 
     header h1 {
@@ -51,7 +56,7 @@
         align-items: center;
         flex-direction: row;
         font-size: 1vw;
-        height: 100%;
+        height: 6vh;
         width: 50vw;
     }
 
@@ -63,7 +68,7 @@
         align-items: center;
         flex-direction: row;
         font-size: 1vw;
-        height: 100%;
+        height: 6vh;
         width: 50vw;
     }
 
