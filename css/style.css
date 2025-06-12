@@ -96,7 +96,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 3vw 0 3vw 0;
+    margin: 0vw 0 3vw 0;
     width: 100vw;
 }
 
@@ -110,7 +110,7 @@ header {
     flex-direction: column;
     font-family: "Storm", sans-serif;
     font-size:8vw;
-    height: 13vh;
+    height: 20vh;
     justify-content: space-around;
 }
 
